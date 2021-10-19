@@ -25,7 +25,7 @@ const checkwin = ()=>{
 
         if((boxtext[e[0]].innerText === boxtext[e[1]].innerText) && (boxtext[e[2]].innerText === boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== ""))
         {
-            document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won! " + "\nClick on reset for new a game."
+            document.querySelector('.info').innerText = boxtext[e[0]].innerText + " Won! " + "\nClick on reset for a new game."
             isgameover = true
             gameover.play();
         }
